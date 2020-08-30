@@ -1,6 +1,6 @@
 import pytest
 
-from islands.island_finding.line_checking import check_consecutive_lines
+from island_finding.line_checking import check_consecutive_lines
 
 
 def test_should_return_correct_counter_value_for_slant_edges():
